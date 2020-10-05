@@ -1,0 +1,27 @@
+"Множество"
+
+а = {1, 2, 3}
+b = {3, 4, 5, 6}
+c = { 5, 6, 7, 8}
+
+#Обьединение
+union_result = a.union(b, c)  
+
+#Пересечение
+intersection_result = a.intersection(b, c)
+
+#Разность
+difference_result = a.difference(b, c) 
+
+#Симметричная разность
+symm_diff = а.symmetric_difference(b, c)  
+
+#Декартово произведение
+
+def decart(a, b, c):
+   return [(d,e,f) for d in a for e in b for f in c]
+
+
+ 
+
+
